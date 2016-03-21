@@ -1,0 +1,9 @@
+---
+
+- name: Download and install modman
+  get_url:
+    url: '{{ modman_download_url }}'
+    dest: '{{ modman_destination }}'
+    owner: root
+    group: root
+    mode: '0755'
