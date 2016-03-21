@@ -3,10 +3,10 @@ dependencies: []
 
 galaxy_info:
   author: Tobias Schifftner
-  description: Installs composer on Debian/Ubuntu linux servers. PHP is required!
+  description: Installs modman on Debian/Ubuntu linux servers.
   company: ambimax® GmbH
   license: MIT
-  min_ansible_version: 1.8
+  min_ansible_version: 1.9
   platforms:
   - name: Debian
     versions:
@@ -18,4 +18,5 @@ galaxy_info:
   galaxy_tags:
     - ubuntu
     - debian
-    - composer
+    - modman
+    - magento

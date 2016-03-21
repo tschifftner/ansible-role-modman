@@ -6,7 +6,7 @@ Installs modman on Debian/Ubuntu linux servers. Installs cronjob to sel-update
 
 ## Requirements
 
-ansible 1.8+
+ansible 1.9+
 
 ## Role Variables
 
@@ -37,7 +37,6 @@ $ ansible-galaxy install tschifftner.modman
 ## Supported OS
 Ansible          | Debian Jessie    | Ubuntu 14.04    | Ubuntu 12.04
 :--------------: | :--------------: | :-------------: | :-------------: 
-1.8              | Yes              | Yes             | Yes
 1.9              | Yes              | Yes             | Yes
 2.0              | Yes              | Yes             | Yes
 
