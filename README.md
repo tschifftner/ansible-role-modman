@@ -1,6 +1,6 @@
 # Ansible Role: Install modman
 
-[![Build Status](https://travis-ci.org/tschifftner/ansible-role-modman.svg)](https://travis-ci.org/tschifftner/ansible-role-modman)
+[![Build Status](https://travis-ci.org/tschifftner/ansible-role-modman.svg?branch=master)](https://travis-ci.org/tschifftner/ansible-role-modman)
 
 Installs modman on Debian/Ubuntu linux servers. Installs cronjob to sel-update
 
@@ -34,11 +34,15 @@ $ ansible-galaxy install tschifftner.modman
         - { role: tschifftner.modman }
 
 ## Supported OS
-## Supported OS
-Ansible          | Debian Jessie    | Ubuntu 14.04    | Ubuntu 12.04
-:--------------: | :--------------: | :-------------: | :-------------: 
-2.1              | Yes              | Yes             | Yes
 
+ - Debian 9 (Stretch)
+ - Debian 8 (Jessie)
+ - Ubuntu 18.04 (Bionic Beaver)
+ - Ubuntu 16.04 (Xenial Xerus)
+ 
+## Required ansible version
+
+Ansible 2.5+
 
 ## License
 

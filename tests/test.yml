@@ -3,4 +3,4 @@
   become: true
 
   roles:
-    - ansible-role-modman
+    - role_under_test
